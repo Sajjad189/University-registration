@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University-Registration</title>
+    <link rel="stylesheet" href="style.css">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css"
+/>
+
+</head>
+<body>
+    <!-- <-----Front page---->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Courses</h1>
+        </div>   
+    </section>
+<!-- ------------------courses------------------------ -->
+
+ <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Here we some courses offer to applied your proffesional skills better.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermidiate</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem ullam eos fugiat neque. Libero totam, similique, tempore obcaecati possimus voluptatum rem alias magnam doloremque expedita quaerat omnis facilis ipsa, recusandae esse veniam nostrum voluptate?</p>
+            </div>
+
+               <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem ullam eos fugiat neque. Libero totam, similique, tempore obcaecati possimus voluptatum rem alias magnam doloremque expedita quaerat omnis facilis ipsa, recusandae esse veniam nostrum voluptate?</p>
+            </div>
+
+               <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem ullam eos fugiat neque. Libero totam, similique, tempore obcaecati possimus voluptatum rem alias magnam doloremque expedita quaerat omnis facilis ipsa, recusandae esse veniam nostrum voluptate?</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------Facilities------------ -->
+
+    <section class="facilities">
+        <h1>Our facilities</h1>
+        <p>We provide a good facilities in every campus.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="/images/library.png">
+                <h3>World Class Library</h3>
+                <p>This Provide you a good books Experience to gain your skills experties.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="/images/basketball.png">
+                <h3>Largest Playground</h3>
+                <p>This Provide you a good and largest playground to enjoy a sports.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="/images/cafeteria.png">
+                <h3>Canteen Area</h3>
+                <p>This Provide you a good healthy canteen to eat something special.</p>
+            </div>
+        </div>
+    </section>
+
+   <!-- ----------------foooter---------------  -->
+
+    <secyion class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus facilis quidem illo assumenda est beatae aut iste <br> dignissimos, commodi illum dolorum non doloremque optio nesciunt, dolores distinctio sapiente.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-skype"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </secyion>
+</body>
+<!-- --------------javascript------------------------- -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</html>
